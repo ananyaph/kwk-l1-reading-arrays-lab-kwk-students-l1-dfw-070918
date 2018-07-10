@@ -20,13 +20,13 @@ def last_student_by_index
 end
 
 def first_student_by_method
-  room.first
+  STUDENT_NAMES.first
 end
 
 def last_student_by_method
-  room.last
+  STUDENT_NAMES.last
 end
 
 def first_second_and_third_students
-  # Write a solution that returns the first, second and third students
+  STUDENT_NAMES[0,1,2]
 end
