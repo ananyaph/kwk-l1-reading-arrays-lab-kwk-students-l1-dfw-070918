@@ -8,23 +8,23 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-  room.first
+  STUDENT_NAMES[0]
 end
 
 def fourth_student_by_index
-  room[4]
+  STUDENT_NAMES[4]
 end
 
 def last_student_by_index
-  room.last
+  STUDENT_NAMES[6]
 end
 
 def first_student_by_method
-  # Write a solution that returns the first student using the built in .first method
+  room.first
 end
 
 def last_student_by_method
-  # Write a solution that returns the first student using the built in .last method
+  room.last
 end
 
 def first_second_and_third_students
